@@ -6,7 +6,7 @@ public class CaesarCracker {
     char mostCommon;
     
     public CaesarCracker() {
-        mostCommon = 'e';
+        this('e');
     }
     
     public CaesarCracker(char c) {
