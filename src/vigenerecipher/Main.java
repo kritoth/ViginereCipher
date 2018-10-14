@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package vigenerecipher;
+import tester.Tester;
 
 /**
  *
@@ -11,8 +12,10 @@ package vigenerecipher;
  */
 public class Main {
         public static void main(String[] args) {
-        int[] key = {1,2,3};
-        VigenereCipher c = new VigenereCipher(key);
-        System.out.println(c);
+            Tester t = new Tester();
+            //t.testCeasarCipher();
+            //t.testCeasarCracker();
+            //t.testVigenereCipher();
+            t.testVigenereBreaker();
     }
 }
